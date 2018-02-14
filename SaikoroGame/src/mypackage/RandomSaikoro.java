@@ -1,4 +1,4 @@
-
+/* 更新テスト */
 package mypackage;
 
 import java.util.Random;
