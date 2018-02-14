@@ -8,7 +8,7 @@ public class DecidedState {
 
 	  /* サイコロの目から、現在値を決定するメソッド　              */
 	  /* 引数 data: サイコロの出力結果配列                       */
-	  public void decidedstate(int data[]) {  
+	  public void decidedState(int data[]) {  
 		  
 		  /*　現在地を計算  */
 		  int num = data.length;
@@ -26,11 +26,11 @@ public class DecidedState {
 		  
 		  /*　現在地（東西）を決定  */	
 		  if (nowState>0) {
-			  System.out.print("現在地は初めの位置から西へ"+nowState+"歩です");			  
+			  System.out.println("現在地は初めの位置から西へ"+nowState+"歩です\n");			  
 		  }else if(nowState<0) {
-			  System.out.print("現在地は初めの位置から東へ"+(nowState*-1)+"歩です");			  			  
+			  System.out.println("現在地は初めの位置から東へ"+(nowState*-1)+"歩です\n");			  			  
 		  }else {
-			  System.out.print("現在地は初めの位置と同じ場所です");				  
+			  System.out.println("現在地は初めの位置と同じ場所です\n");				  
 		  }
 		  
 	  }
